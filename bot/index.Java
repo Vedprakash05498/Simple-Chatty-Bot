@@ -2,11 +2,11 @@ package bot;
 
 import java.util.Scanner;
 
-public class SimpleBot {
+class SimpleBot {
     final static Scanner scanner = new Scanner(System.in); 
 
     public static void main(String[] args) {
-        greet("Nikhil", "2020");
+        greet("Ved", "2000");
         remindName();
         guessAge();
         count();
